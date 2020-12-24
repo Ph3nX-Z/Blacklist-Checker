@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+	<h3 class="text-muted">Summary</h3>
+      </div>
+      <hr/>
+      <h3>Result</h3>
+      <table class="table">
+	<tbody>
+	  <tr>
+	    <td>Pseudo</td>
+	    <td>{{ data.name }}</td>
+	  </tr>
+	  <tr>
+	    <td>Email</td>
+	    <td>{{ data.email }}</td>
+	  </tr>
+	  <tr>
+	    <td>To verify</td>
+		<td>{{ data.username }}</td>
+	  </tr>
+	  <tr>
+	    <td>ID in blacklist ?</td>
+		<td>{{ data.banned }}</td>
+	  </tr>
+	</tbody>
+      </table>
+    </div>
+  </body>
+</html>
