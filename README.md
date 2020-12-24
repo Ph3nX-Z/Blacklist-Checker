@@ -1,6 +1,6 @@
 # BlackList Checker
 
-Check if user's id is in the database
+Check if a discord user is banned from a community
 
 ## Hosted version:
 
